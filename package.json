@@ -1,0 +1,14 @@
+{
+  "name": "chatting-web",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "start:backend": "npm --prefix backend start",
+    "start:client": "npm --prefix client start"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  }
+}
